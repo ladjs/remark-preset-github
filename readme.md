@@ -74,7 +74,7 @@ See [`retext-preset-github`][retext-preset] for more info.
 [MIT](LICENSE) © Titus Wormer
 
 
-## 
+##
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
@@ -88,7 +88,7 @@ See [`retext-preset-github`][retext-preset] for more info.
 
 [comments]: https://github.com/wooorm/remark-comment-config
 
-[retext-preset]: https://github.com/wooorm/retext-preset-wooorm
+[retext-preset]: https://github.com/niftylettuce/retext-preset-github
 
 [english]: https://github.com/wooorm/retext/tree/master/packages/retext-english
 

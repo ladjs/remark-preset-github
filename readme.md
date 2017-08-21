@@ -62,7 +62,7 @@ See [`retext-preset-github`][retext-preset] for more info.
 * [English][] parsing
 * Two [spaces][] between sentences
 * Checks ["indefinite articles"][articles]: "a" or "an"
-* Checks [quotes and apostrophes][quotes] (`&lquot;&rquot;` > `""`)
+* Checks [quotes and apostrophes][quotes] (<code>&ldquo;&rdquo;</code> > `""`)
 * Checks accidental [repeated words][repeated]
 * Checks [diacritics][]
 * Checks [redundant acronyms][ras]

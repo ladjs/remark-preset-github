@@ -1,4 +1,3 @@
-
 const unified = require('unified');
 const english = require('retext-english');
 const preset = require('retext-preset-github');
@@ -16,7 +15,10 @@ exports.plugins = [
   require('remark-comment-config'),
   require('remark-validate-links'),
   [require('remark-lint-blockquote-indentation'), 2],
-  [require('remark-lint-checkbox-character-style'), {checked: 'x', unchecked: ' '}],
+  [
+    require('remark-lint-checkbox-character-style'),
+    {checked: 'x', unchecked: ' '}
+  ],
   require('remark-lint-checkbox-content-indent'),
   [require('remark-lint-code-block-style'), 'fenced'],
   require('remark-lint-definition-case'),
@@ -58,6 +60,5 @@ exports.plugins = [
   require('remark-github'),
   require('remark-heading-gap'),
   require('remark-license'),
-  require('remark-contributors'),
-  require('remark-usage')
+  require('remark-contributors')
 ];

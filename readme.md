@@ -41,7 +41,6 @@ npm test
 ###### Markdown
 
 * Adds a [license section][remark-license]
-* Adds a [usage section][remark-usage]
 * Adds a [contributors section][remark-contributors]
 * Extends [`remark-preset-lint-recommended`][lint-recommended],
   and adds a strict code-style (see [`index.js`][index])
@@ -109,7 +108,5 @@ See [`retext-preset-github`][retext-preset] for more info.
 [docs]: https://github.com/unifiedjs/unified#preset
 
 [remark-license]: https://github.com/wooorm/remark-license
-
-[remark-usage]: https://github.com/wooorm/remark-usage
 
 [remark-contributors]: https://github.com/hughsk/remark-contributors

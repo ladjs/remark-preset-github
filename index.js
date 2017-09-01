@@ -30,7 +30,6 @@ exports.plugins = [
   require('remark-lint-final-definition'),
   require('remark-lint-first-heading-level'),
   [require('remark-lint-heading-style'), 'atx'],
-  [require('remark-lint-link-title-style'), '"'],
   require('remark-lint-no-duplicate-definitions'),
   require('remark-lint-no-emphasis-as-heading'),
   require('remark-lint-no-file-name-articles'),

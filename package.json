@@ -52,16 +52,22 @@
     "remark-toc": "^4.0.0",
     "remark-validate-links": "^7.0.0",
     "retext-english": "^3.0.0",
-    "retext-preset-github": "^0.0.3",
+    "retext-preset-github": "^0.0.4",
     "unified": "^6.0.0"
   },
   "devDependencies": {
     "remark-cli": "^4.0.0",
     "xo": "^0.18.1"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "homepage": "https://github.com/niftylettuce/remark-preset-github",
-  "keywords": ["github", "preset", "remark"],
+  "keywords": [
+    "github",
+    "preset",
+    "remark"
+  ],
   "license": "MIT",
   "main": "index.js",
   "remarkConfig": {

@@ -48,7 +48,7 @@ npm test
 * Markdown is compiled with asterisk list-item bullets (`*`),
   and fenced code blocks (note: set `output: true` in your config to
   benefit from this)
-* How remark compiles can be configured inline with [comments][]
+* How remark compiles can be configured inline with [comments][comments]
 * `Table of Contents` headers are kept up to date, with a depth of `3`
   (if `output: true`)
 * [GH references][github], like mentions or issue references, are
@@ -58,14 +58,14 @@ npm test
 
 See [`retext-preset-github`][retext-preset] for more info.
 
-* [English][] parsing
-* Two [spaces][] between sentences
+* [English][english] parsing
+* Two [spaces][spaces] between sentences
 * Checks ["indefinite articles"][articles]: "a" or "an"
-* Checks [quotes and apostrophes][quotes] (<code>&ldquo;&rdquo;</code> > `""`)
+* Checks [quotes and apostrophes][quotes] (`“”` > `""`)
 * Checks accidental [repeated words][repeated]
-* Checks [diacritics][]
+* Checks [diacritics][diacritics]
 * Checks [redundant acronyms][ras]
-* Checks incorrectly placed apostrophes in [contractions][]
+* Checks incorrectly placed apostrophes in [contractions][contractions]
 
 
 ## License
@@ -73,7 +73,7 @@ See [`retext-preset-github`][retext-preset] for more info.
 [MIT](LICENSE) © Titus Wormer
 
 
-##
+## 
 
 [npm-install]: https://docs.npmjs.com/cli/install
 

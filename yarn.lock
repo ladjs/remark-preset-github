@@ -3106,21 +3106,10 @@ remark-lint-list-item-bullet-indent@^1.0.0:
     unist-util-position "^3.0.0"
     unist-util-visit "^1.1.1"
 
-remark-lint-list-item-indent@^1.0.0:
+remark-lint-list-item-indent@1.0.2, remark-lint-list-item-indent@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/remark-lint-list-item-indent/-/remark-lint-list-item-indent-1.0.2.tgz#f8208f333a25bbaafdeda707e73523d6bb0f90cf"
   integrity sha512-ogCCrO8nyuM/0k1bo+O7Ww0S08XxHA9sHh5VdhLwffCTCyOPDoxL1zWCIrAgzPBFZkgjXDQHsOxeUBi5I1ZFcA==
-  dependencies:
-    plur "^3.0.0"
-    unified-lint-rule "^1.0.0"
-    unist-util-generated "^1.1.0"
-    unist-util-position "^3.0.0"
-    unist-util-visit "^1.1.1"
-
-remark-lint-list-item-indent@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/remark-lint-list-item-indent/-/remark-lint-list-item-indent-1.0.3.tgz#93dac0cc312ee8dd9c8a0749b44b17b95b765f53"
-  integrity sha512-/IcVUPIxQ2X/oCKzqiAtH85CS8An3xQbcMD0DRBHZjBrIUO0Ot7lBiQedSHwCg9lnh7pDOTvHrmNS3FaWjVQqw==
   dependencies:
     plur "^3.0.0"
     unified-lint-rule "^1.0.0"
@@ -3635,7 +3624,7 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
-retext-contractions@^2.1.0:
+retext-contractions@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/retext-contractions/-/retext-contractions-2.1.2.tgz#aab762d59a2848922c033b58c0d7a0bfcfbe3bbd"
   integrity sha1-qrdi1ZooSJIsAztYwNegv8++O70=
@@ -3644,7 +3633,7 @@ retext-contractions@^2.1.0:
     nlcst-to-string "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-diacritics@^1.2.0:
+retext-diacritics@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/retext-diacritics/-/retext-diacritics-1.2.1.tgz#3848560f5c2e434486b41fff4368959149b74443"
   integrity sha1-OEhWD1wuQ0SGtB//Q2iVkUm3REM=
@@ -3664,7 +3653,7 @@ retext-english@^3.0.0:
     parse-english "^4.0.0"
     unherit "^1.0.4"
 
-retext-indefinite-article@^1.1.0:
+retext-indefinite-article@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/retext-indefinite-article/-/retext-indefinite-article-1.1.4.tgz#415fc520bcdfd05f8c16a9f566a393a1360376a0"
   integrity sha512-Stncng/mvw04hNji2wiKoC+MSWA/CZV1fkwKl9Bb55j5ETT4UrMo3WzCuO/9NNjdYKkZdFwCMoTHypbKWQ+0rQ==
@@ -3675,20 +3664,20 @@ retext-indefinite-article@^1.1.0:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-preset-github@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/retext-preset-github/-/retext-preset-github-0.0.4.tgz#9883f2f347dea3d1280885dddf50b530ee60dac5"
-  integrity sha512-u/6Ztx2RdP4ewR+I1vHVyLyIe6zQenAW9U1o/31eiXLiJxK9NDYTxzUVBXjTy1aUKYhp3X/1P15oyrdlGTNFnw==
+retext-preset-github@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/retext-preset-github/-/retext-preset-github-0.0.5.tgz#5ff56b784b1eb2617392edcdf18a74a948e18435"
+  integrity sha512-FO5zkyC4z91Wj1OblkxKolDFyb0KYyXVcc/9oQpEfIRi8ungoFLyMG4pJlT48nVPTEd+6Pd8SO3RDHd45BDwYw==
   dependencies:
-    retext-contractions "^2.1.0"
-    retext-diacritics "^1.2.0"
-    retext-indefinite-article "^1.1.0"
-    retext-quotes "^2.0.0"
-    retext-redundant-acronyms "^1.2.0"
-    retext-repeated-words "^1.2.0"
-    retext-sentence-spacing "^2.0.0"
+    retext-contractions "^2.1.2"
+    retext-diacritics "^1.2.1"
+    retext-indefinite-article "^1.1.4"
+    retext-quotes "^2.0.1"
+    retext-redundant-acronyms "^1.2.1"
+    retext-repeated-words "^1.2.1"
+    retext-sentence-spacing "^2.0.1"
 
-retext-quotes@^2.0.0:
+retext-quotes@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-2.0.1.tgz#150f76182b08a8cebd1a0dc61017f925476ff829"
   integrity sha1-FQ92GCsIqM69Gg3GEBf5JUdv+Ck=
@@ -3697,7 +3686,7 @@ retext-quotes@^2.0.0:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-redundant-acronyms@^1.2.0:
+retext-redundant-acronyms@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-1.2.1.tgz#b7b313a66969c38540fb7feb9932d420b2838959"
   integrity sha1-t7MTpmlpw4VA+3/rmTLUILKDiVk=
@@ -3709,7 +3698,7 @@ retext-redundant-acronyms@^1.2.0:
     quotation "^1.0.1"
     unist-util-position "^3.0.0"
 
-retext-repeated-words@^1.2.0:
+retext-repeated-words@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/retext-repeated-words/-/retext-repeated-words-1.2.1.tgz#b508d8656276838d7cbdaf8831c1edc5a4faef40"
   integrity sha1-tQjYZWJ2g418va+IMcHtxaT670A=
@@ -3718,7 +3707,7 @@ retext-repeated-words@^1.2.0:
     unist-util-is "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-sentence-spacing@^2.0.0:
+retext-sentence-spacing@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/retext-sentence-spacing/-/retext-sentence-spacing-2.0.1.tgz#0baff1aacce08a9d38b3328ec0dd23c1150bdf66"
   integrity sha1-C6/xqszgip04szKOwN0jwRUL32Y=

@@ -13,7 +13,7 @@ exports.settings = {
 exports.plugins = [
   [require('remark-retext'), unified().use(english).use(preset)],
   require('remark-preset-lint-recommended'),
-  [require('remark-lint-list-item-indent'), 'space'],
+  [require('remark-lint-list-item-indent'), 'mixed'],
   require('remark-comment-config'),
   require('remark-validate-links'),
   [require('remark-lint-blockquote-indentation'), 2],

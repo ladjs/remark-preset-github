@@ -1,7 +1,7 @@
 {
   "name": "remark-preset-github",
   "description": "GitHub markdown and prose style",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "Nick Baugh <niftylettuce@gmail.com>",
   "bugs": "https://github.com/niftylettuce/remark-preset-github/issues",
   "dependencies": {

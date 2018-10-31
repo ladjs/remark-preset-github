@@ -5,7 +5,7 @@ const preset = require('retext-preset-github');
 exports.settings = {
   bullet: '*',
   fences: true,
-  listItemIndent: 1,
+  listItemIndent: '1',
   rule: '-',
   ruleSpaces: false
 };

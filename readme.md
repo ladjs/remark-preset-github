@@ -68,6 +68,13 @@ See [`retext-preset-github`][retext-preset] for more info.
 * Checks incorrectly placed apostrophes in [contractions][contractions]
 
 
+## Contributors
+
+| Name           | website                    |
+| -------------- | -------------------------- |
+| **Nick Baugh** | <https://niftylettuce.com> |
+
+
 ## License
 
 [MIT](LICENSE) © Titus Wormer

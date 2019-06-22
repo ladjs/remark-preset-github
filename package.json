@@ -4,6 +4,13 @@
   "version": "0.0.13",
   "author": "Nick Baugh <niftylettuce@gmail.com>",
   "bugs": "https://github.com/niftylettuce/remark-preset-github/issues",
+  "contributors": [
+    {
+      "name": "Nick Baugh",
+      "email": "niftylettuce@gmail.com",
+      "website": "https://niftylettuce.com"
+    }
+  ],
   "dependencies": {
     "remark-comment-config": "^5.1.0",
     "remark-contributors": "^4.0.1",

@@ -1501,11 +1501,6 @@ inquirer@^6.2.2:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-irregular-plurals@^1.0.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-1.4.0.tgz#2ca9b033651111855412f16be5d77c62a458a766"
-  integrity sha1-LKmwM2UREYVUEvFr5dd8YqRYp2Y=
-
 irregular-plurals@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/irregular-plurals/-/irregular-plurals-2.0.0.tgz#39d40f05b00f656d0b7fa471230dd3b714af2872"
@@ -2322,7 +2317,7 @@ nlcst-is-literal@^1.0.0, nlcst-is-literal@^1.1.0:
   dependencies:
     nlcst-to-string "^2.0.0"
 
-nlcst-normalize@^2.1.0:
+nlcst-normalize@^2.0.0, nlcst-normalize@^2.1.0:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/nlcst-normalize/-/nlcst-normalize-2.1.3.tgz#9aecee8032e7d561eed8767eaf80a0c93bb9840b"
   integrity sha512-TtAmaUsjZPU6zH+yksmLwTezMti5Db8R+kdViCmWv44pWGxNr4C90p7X33YbiULxDfA7i7J7gUutDX4fT9pn7g==
@@ -2690,19 +2685,17 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-plur@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/plur/-/plur-2.1.2.tgz#7482452c1a0f508e3e344eaec312c91c29dc655a"
-  integrity sha1-dIJFLBoPUI4+NE6uwxLJHCncZVo=
-  dependencies:
-    irregular-plurals "^1.0.0"
-
 plur@^3.0.0, plur@^3.0.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/plur/-/plur-3.1.1.tgz#60267967866a8d811504fe58f2faaba237546a5b"
   integrity sha512-t1Ax8KUvV3FFII8ltczPn2tJdjqbd1sIzu6t4JL7nQ3EyeL/lTrj5PWKb06ic5/6XYDr65rQ4uzQEGN70/6X5w==
   dependencies:
     irregular-plurals "^2.0.0"
+
+pluralize@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
+  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -3573,19 +3566,19 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
-retext-contractions@^2.1.2:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/retext-contractions/-/retext-contractions-2.1.4.tgz#6f94dcdd26fe07f67d10f804c32e4826512f8853"
-  integrity sha512-HwYrxEnhnEGmo921PKAMYUvyDq65iCd+kjliv22rF0xIQOP6gPzWWDhrLyNo2L+Tek7sI3GoxrK0QPvt8FNjRg==
+retext-contractions@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retext-contractions/-/retext-contractions-3.0.0.tgz#01fa2d0864340cf79bf4c86637c87dd4f9eab767"
+  integrity sha512-Wn95agseXHTsoXvhavuTcnwUEb9TbL7QtnYkHeFMh8L53jdQbbooLX68cbpKyaaPbxYiomrgJpu7eB3arcr2rw==
   dependencies:
     nlcst-is-literal "^1.0.0"
     nlcst-to-string "^2.0.0"
     unist-util-visit "^1.1.0"
 
-retext-diacritics@^1.2.1:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/retext-diacritics/-/retext-diacritics-1.2.3.tgz#b4f6a7257daa3deb8631b7cf927927bc31ad2bca"
-  integrity sha512-DalL84HWTUppyPZ4sJuFXeTr48CA4i0Dj6W7SD57P02mtfh9gFoi4qGCLNyysAe5C5maFKb1d0Auy4xfymQQSw==
+retext-diacritics@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/retext-diacritics/-/retext-diacritics-2.0.0.tgz#db4f6da81d42acae34fb149500421dec1f26af78"
+  integrity sha512-wr3mqJ9whlIG/q6vP601qR+/C7AMgc7O60kebs9kvN/HtTX7CpvFsKF68+yw86drMOMVCBJP8JB1Qlnj8CkY5A==
   dependencies:
     match-casing "^1.0.0"
     nlcst-search "^1.0.0"
@@ -3601,7 +3594,7 @@ retext-english@^3.0.3:
     parse-english "^4.0.0"
     unherit "^1.0.4"
 
-retext-indefinite-article@^1.1.4:
+retext-indefinite-article@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/retext-indefinite-article/-/retext-indefinite-article-1.1.7.tgz#a9de7cca8c24a11cb8fcd5c68e54d8e38e5ab525"
   integrity sha512-pqvEfEHL8uoeonbEjk8+d/hmyA3ozIeNTl4t3uurMcBpoIqN3+nbuMCFQrfDy2wjaKZ40KsLmEi+Zjv7m1ejLQ==
@@ -3612,55 +3605,56 @@ retext-indefinite-article@^1.1.4:
     unist-util-is "^3.0.0"
     unist-util-visit "^1.1.0"
 
-retext-preset-github@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/retext-preset-github/-/retext-preset-github-0.0.5.tgz#5ff56b784b1eb2617392edcdf18a74a948e18435"
-  integrity sha512-FO5zkyC4z91Wj1OblkxKolDFyb0KYyXVcc/9oQpEfIRi8ungoFLyMG4pJlT48nVPTEd+6Pd8SO3RDHd45BDwYw==
+retext-preset-github@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/retext-preset-github/-/retext-preset-github-0.0.6.tgz#708f9d6d693d0e5913aa2b0354dd28f33a8bf092"
+  integrity sha512-6YGaTBK7YJBYTrHOeorIqJUtm72/y1rWV0zKB8ba1Kb0gs57YigLaWjuKnRzULSmhP1i1uXUx2xcsEh6lwgNvw==
   dependencies:
-    retext-contractions "^2.1.2"
-    retext-diacritics "^1.2.1"
-    retext-indefinite-article "^1.1.4"
-    retext-quotes "^2.0.1"
-    retext-redundant-acronyms "^1.2.1"
-    retext-repeated-words "^1.2.1"
-    retext-sentence-spacing "^2.0.1"
+    retext-contractions "^3.0.0"
+    retext-diacritics "^2.0.0"
+    retext-indefinite-article "^1.1.7"
+    retext-quotes "^3.0.0"
+    retext-redundant-acronyms "^2.0.0"
+    retext-repeated-words "^2.0.0"
+    retext-sentence-spacing "^3.0.0"
 
-retext-quotes@^2.0.1:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-2.0.4.tgz#48c634d49cf3b5a37001fa2b767b020450184b6c"
-  integrity sha512-GiJmwnlY4yEaRsqRo4veFIAX/qRdMkm//YhiwFX+t4NhXoLYqWUdgzmsj623IwOdcMpxOmQdtzTmPbGSVx3yfA==
+retext-quotes@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-3.0.0.tgz#47f772e886b9b513dc6f1b97c482e15b1446b84a"
+  integrity sha512-2htggeOFsrorhXrQvb4BI1O/r7CGVQZx/TysAT7wlVMsRUTZooiIGkBcLrcySa4sbqjsVgg1RjMy8K5O+gCQlg==
   dependencies:
     nlcst-to-string "^2.0.0"
     unist-util-is "^3.0.0"
     unist-util-visit "^1.1.0"
 
-retext-redundant-acronyms@^1.2.1:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-1.2.3.tgz#656a2057da2b1acc3ad75a300986bff02a214efa"
-  integrity sha512-AtC+AOTB+c4VgTmK9xFnm/0rBE/hYd3HmGOp4XZxLOY/A3KAVnoHO1athvp8G13UwGg+eu3RusUbeufSW5L9qA==
+retext-redundant-acronyms@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/retext-redundant-acronyms/-/retext-redundant-acronyms-2.0.0.tgz#e4fb92a97b0db76dfa20192e0d3915470458e80c"
+  integrity sha512-9E62yXkDKYItNZO+lT4Pp0rAP8e/H7ppjYP681L0fk74xyItoE6okl0BMNVOa0W4XidLoGX2uWdlwWpCUeqQiw==
   dependencies:
-    match-casing "^1.0.0"
+    nlcst-normalize "^2.0.0"
     nlcst-search "^1.0.0"
     nlcst-to-string "^2.0.0"
+    pluralize "^8.0.0"
     quotation "^1.0.0"
+    unist-util-find-after "^2.0.0"
     unist-util-position "^3.0.0"
 
-retext-repeated-words@^1.2.1:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/retext-repeated-words/-/retext-repeated-words-1.2.3.tgz#dd9f3d32464407b492cfa0f85c0bd92e62b7a79d"
-  integrity sha512-s51ybhXsHvpHpM44y9hayqcIDMo9g5QBZoOpPUosX3CfobZbgH7CZHbME8TOEcduR7OqGtNZ8JLKVFwi9QAKqA==
+retext-repeated-words@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/retext-repeated-words/-/retext-repeated-words-2.0.0.tgz#93e8f5b81b76388910b1453a0d9c527460e95637"
+  integrity sha512-CGqM88ViAKtSgdWGObTU974AdmfxyiyB19MvuQTBBW3crWYIS7p21m0sJH/pCnp11gVa0YOU+vqdNaSvRiLTFA==
   dependencies:
     nlcst-to-string "^2.0.0"
     unist-util-is "^3.0.0"
     unist-util-visit "^1.1.0"
 
-retext-sentence-spacing@^2.0.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/retext-sentence-spacing/-/retext-sentence-spacing-2.1.1.tgz#958e0c1cc726b525874a878e42c2c6742aaa6007"
-  integrity sha512-oO71H3W9fBmTcxipqFLPgMgXd33DLjcXZJeoZeg1OplqijaNFxPr/ZK2bc5PP6ZPCNYAcT2ykYJLTLrsFWfwew==
+retext-sentence-spacing@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/retext-sentence-spacing/-/retext-sentence-spacing-3.0.0.tgz#bfdfc4fc5990f816cc79a6caa335046878208300"
+  integrity sha512-UWltTXZNh6kBwJJc0js3nOmbqze3LqhJg68jaRErNIPZQHtZ5hMn7h7f8kVY5OrbEL9XiY88m5DRPbFz16eTkQ==
   dependencies:
     nlcst-to-string "^2.0.0"
-    plur "^2.1.2"
     unist-util-is "^3.0.0"
     unist-util-visit "^1.1.0"
 
@@ -4205,6 +4199,13 @@ unist-builder@^1.0.3:
   integrity sha512-v6xbUPP7ILrT15fHGrNyHc1Xda8H3xVhP7/HAIotHOhVPjH5dCXA097C3Rry1Q2O+HbOLCao4hfPB+EYEjHgVg==
   dependencies:
     object-assign "^4.1.0"
+
+unist-util-find-after@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/unist-util-find-after/-/unist-util-find-after-2.0.4.tgz#3fcccf0df3a2e7291fa119224c0f22158357cc10"
+  integrity sha512-zo0ShIr+E/aU9xSK7JC9Kb+WP9seTFCuqVYdo5+HJSjN009XMfhiA1FIExEKzdDP1UsgvKGleGlB/pSdTSqZww==
+  dependencies:
+    unist-util-is "^3.0.0"
 
 unist-util-generated@^1.1.0:
   version "1.1.4"

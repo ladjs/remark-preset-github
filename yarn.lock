@@ -2957,7 +2957,7 @@ obj-props@^1.0.0:
   resolved "https://registry.yarnpkg.com/obj-props/-/obj-props-1.3.0.tgz#8884ab21c8d8496c4a7f696c78bf82289c51680b"
   integrity sha512-k2Xkjx5wn6eC3537SWAXHzB6lkI81kS+icMKMkh4nG3w7shWG6MaWOBrNvhWVOszrtL5uxdfymQQfPUxwY+2eg==
 
-object-assign@^4.1.1:
+object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -3624,16 +3624,15 @@ remark-comment-config@^5.1.1:
   dependencies:
     mdast-comment-marker "^1.0.1"
 
-remark-contributors@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/remark-contributors/-/remark-contributors-5.0.0.tgz#e36db150281f1b0e917a5d13dde87e42ffdaf68c"
-  integrity sha512-yU6/hvUwZ9hVcQQ8T7Quh8916IhKsFyO1t5HdZ3JIGvpqxwjoGuNjOruXirXBOqHD2j57dXrXzFxcS1wpO5BEQ==
+remark-contributors@4.x:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/remark-contributors/-/remark-contributors-4.0.1.tgz#f28269adb91f7ca6c95bb14ce1e08a9822ac9dad"
+  integrity sha512-5G76tKfpRl/TrOljvD1KZvA53S+jm0DeL2HDwFgdkxTexUdv8A0EG2JQNxGWXEVmOhch3yJ4tF2QlsiRf8SXWg==
   dependencies:
     is-url "^1.2.2"
     mdast-util-heading-range "^2.1.2"
     parse-author "^2.0.0"
-    unist-builder "^2.0.0"
-    vfile-find-up "^5.0.0"
+    unist-builder "^1.0.3"
 
 remark-github@^9.0.0:
   version "9.0.0"
@@ -5100,10 +5099,12 @@ unique-string@^2.0.0:
   dependencies:
     crypto-random-string "^2.0.0"
 
-unist-builder@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/unist-builder/-/unist-builder-2.0.3.tgz#77648711b5d86af0942f334397a33c5e91516436"
-  integrity sha512-f98yt5pnlMWlzP539tPc4grGMsFaQQlP/vM396b00jngsiINumNmsY8rkXjfoi1c6QaM8nQ3vaGDuoKWbe/1Uw==
+unist-builder@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/unist-builder/-/unist-builder-1.0.4.tgz#e1808aed30bd72adc3607f25afecebef4dd59e17"
+  integrity sha512-v6xbUPP7ILrT15fHGrNyHc1Xda8H3xVhP7/HAIotHOhVPjH5dCXA097C3Rry1Q2O+HbOLCao4hfPB+EYEjHgVg==
+  dependencies:
+    object-assign "^4.1.0"
 
 unist-util-find-after@^2.0.0:
   version "2.0.4"
@@ -5291,13 +5292,6 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
-
-vfile-find-up@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/vfile-find-up/-/vfile-find-up-5.0.1.tgz#2d3d855e99013b852c604b18a0e559acf6fd385e"
-  integrity sha512-YWx8fhWQNYpHxFkR5fDO4lCdvPcY4jfCG7qUMHVvSp14vRfkEYxFG/vUEV0eJuXoKFfiAmMkAS8dekOYnpAJ+A==
-  dependencies:
-    to-vfile "^6.0.0"
 
 vfile-location@^3.0.0:
   version "3.0.1"

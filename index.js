@@ -15,7 +15,6 @@ exports.plugins = [
   require('remark-preset-lint-recommended'),
   [require('remark-lint-list-item-indent'), 'space'],
   require('remark-comment-config'),
-  require('remark-validate-links'),
   [require('remark-lint-blockquote-indentation'), 2],
   [
     require('remark-lint-checkbox-character-style'),

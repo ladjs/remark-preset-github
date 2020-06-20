@@ -44,7 +44,6 @@ npm test
 * Adds a [contributors section][remark-contributors]
 * Extends [`remark-preset-lint-recommended`][lint-recommended],
   and adds a strict code-style (see [`index.js`][index])
-* Checks [broken local links][validate-links]
 * Markdown is compiled with asterisk list-item bullets (`*`),
   and fenced code blocks (note: set `output: true` in your config to
   benefit from this)
@@ -80,15 +79,13 @@ See [`retext-preset-github`][retext-preset] for more info.
 [MIT](LICENSE) © Titus Wormer
 
 
-## 
+##
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
 [index]: ./index.js
 
 [lint-recommended]: https://github.com/wooorm/remark-lint/tree/master/packages/remark-preset-lint-recommended
-
-[validate-links]: https://github.com/wooorm/remark-validate-links
 
 [github]: https://github.com/wooorm/remark-github
 

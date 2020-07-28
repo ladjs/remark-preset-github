@@ -54,7 +54,6 @@ exports.plugins = [
   require('remark-lint-table-pipes'),
   [require('remark-lint-unordered-list-marker-style'), '*'],
   [require('remark-toc'), {maxDepth: 3, tight: true}],
-  require('remark-github'),
   require('remark-heading-gap'),
   require('remark-license'),
   require('remark-contributors')

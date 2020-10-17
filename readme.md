@@ -79,7 +79,7 @@ See [`retext-preset-github`][retext-preset] for more info.
 [MIT](LICENSE) © Titus Wormer
 
 
-## 
+##
 
 [npm-install]: https://docs.npmjs.com/cli/install
 

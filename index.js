@@ -55,6 +55,5 @@ exports.plugins = [
   [require('remark-lint-unordered-list-marker-style'), '*'],
   [require('remark-toc'), {maxDepth: 3, tight: true}],
   require('remark-heading-gap'),
-  require('remark-license'),
-  require('remark-contributors')
+  require('remark-license')
 ];

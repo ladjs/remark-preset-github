@@ -13,6 +13,8 @@
   ],
   "dependencies": {
     "remark-comment-config": "^6.0.0",
+    "remark-contributors": "^5.0.0",
+    "remark-gfm": "^1.0.0",
     "remark-heading-gap": "^4.0.0",
     "remark-license": "niftylettuce/remark-license",
     "remark-lint-blockquote-indentation": "^2.0.1",

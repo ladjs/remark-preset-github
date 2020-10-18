@@ -1,6 +1,7 @@
 const unified = require('unified');
 const english = require('retext-english');
 const preset = require('retext-preset-github');
+const gfm = require('remark-gfm');
 
 exports.settings = {
   bullet: '*',
@@ -55,5 +56,6 @@ exports.plugins = [
   [require('remark-lint-unordered-list-marker-style'), '*'],
   [require('remark-toc'), {maxDepth: 3, tight: true}],
   require('remark-heading-gap'),
+  [gfm, require('remark-contributors')],
   require('remark-license')
 ];

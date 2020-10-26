@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "remark-comment-config": "^6.0.0",
-    "remark-contributors": "^5.0.0",
+    "remark-contributors": "^5.0.1",
     "remark-gfm": "^1.0.0",
     "remark-heading-gap": "^4.0.0",
     "remark-license": "niftylettuce/remark-license",
@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "remark-cli": "9.0.0",
-    "xo": "^0.34.0"
+    "xo": "^0.34.1"
   },
   "files": [
     "index.js"

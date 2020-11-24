@@ -58,5 +58,8 @@ exports.plugins = [
   require('remark-gfm'),
   require('remark-contributors'),
   require('remark-license'),
-  require('remark-slug')
+  require('remark-slug'),
+  [require('remark-autolink-headings'), {behavior: 'prepend', content: {type: 'element', tagName: 'i', properties: {className: ['fa', 'fa-link', 'mr-2', 'text-dark']}, children: []}}],
+  require('remark-emoji'),
+  require('remark-html')
 ];

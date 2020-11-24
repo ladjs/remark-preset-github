@@ -57,5 +57,6 @@ exports.plugins = [
   require('remark-heading-gap'),
   require('remark-gfm'),
   require('remark-contributors'),
-  require('remark-license')
+  require('remark-license'),
+  require('remark-slug')
 ];

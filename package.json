@@ -59,7 +59,7 @@
     "remark-toc": "^7.0.0",
     "retext-english": "^3.0.4",
     "retext-preset-github": "^0.0.6",
-    "unified": "^9.2.0"
+    "unified": "^9.2.2"
   },
   "devDependencies": {
     "remark-cli": "9.0.0",

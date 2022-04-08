@@ -3873,10 +3873,10 @@ remark-comment-config@^6.0.0:
   dependencies:
     mdast-comment-marker "^1.0.1"
 
-remark-contributors@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/remark-contributors/-/remark-contributors-5.0.1.tgz#15d505863cb9ec8b6e08c764f687b2b05b24b175"
-  integrity sha512-OToTF0odIYSQc8CE/9WNad724zGvtXpi41GQs/CHfyXpOKAOrq29pfFVo3lW0ti9dLwqvrhCazUksJQJnkvkbQ==
+remark-contributors@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/remark-contributors/-/remark-contributors-5.1.0.tgz#ffc333c32918a3e8f7db9ab545a9ea377cf37e4a"
+  integrity sha512-BP/TqmLUudgXXs6/7vIR+lM2MSuvLEpuD5JPPacDSUHL9i1JoXQtvFJTebY4rIvgoYzPsO8nN3QWQge4mk5M0A==
   dependencies:
     is-url "^1.2.2"
     mdast-util-heading-range "^2.1.2"

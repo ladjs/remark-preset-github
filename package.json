@@ -16,7 +16,7 @@
     "remark-contributors": "^5.0.1",
     "remark-gfm": "^1.0.0",
     "remark-heading-gap": "^4.0.0",
-    "remark-license": "niftylettuce/remark-license",
+    "remark-license": "5",
     "remark-lint-blockquote-indentation": "^2.0.1",
     "remark-lint-checkbox-character-style": "^3.0.0",
     "remark-lint-checkbox-content-indent": "^3.0.0",

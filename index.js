@@ -18,7 +18,7 @@ exports.plugins = [
   [require('remark-lint-blockquote-indentation'), 2],
   [
     require('remark-lint-checkbox-character-style'),
-    {checked: 'x', unchecked: ' '}
+    { checked: 'x', unchecked: ' ' }
   ],
   require('remark-lint-checkbox-content-indent'),
   [require('remark-lint-code-block-style'), 'fenced'],
@@ -41,7 +41,7 @@ exports.plugins = [
   require('remark-lint-no-heading-content-indent'),
   require('remark-lint-no-heading-indent'),
   require('remark-lint-no-heading-punctuation'),
-  [require('remark-lint-no-missing-blank-lines'), {exceptTightLists: true}],
+  [require('remark-lint-no-missing-blank-lines'), { exceptTightLists: true }],
   require('remark-lint-no-multiple-toplevel-headings'),
   require('remark-lint-no-shell-dollars'),
   require('remark-lint-no-table-indentation'),
@@ -53,7 +53,7 @@ exports.plugins = [
   require('remark-lint-table-pipe-alignment'),
   require('remark-lint-table-pipes'),
   [require('remark-lint-unordered-list-marker-style'), '*'],
-  [require('remark-toc'), {maxDepth: 3, tight: true}],
+  [require('remark-toc'), { maxDepth: 3, tight: true }],
   require('remark-heading-gap'),
   require('remark-gfm'),
   require('remark-contributors'),

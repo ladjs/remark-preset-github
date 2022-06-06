@@ -1,7 +1,7 @@
 {
   "name": "remark-preset-github",
   "description": "GitHub markdown and prose style",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "author": "Titus Wormer <tituswormer@gmail.com>",
   "bugs": "https://github.com/niftylettuce/remark-preset-github/issues",
   "contributors": [

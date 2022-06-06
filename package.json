@@ -65,13 +65,16 @@
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "eslint": "^8.17.0",
-    "eslint-config-xo-lass": "^1.0.6",
+    "eslint-config-xo-lass": "^2.0.1",
     "fixpack": "^4.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.0",
     "prettier": "^2.6.2",
     "remark-cli": "10.0.1",
     "xo": "^0.49.0"
+  },
+  "engines": {
+    "node": ">=14"
   },
   "files": [
     "index.js"
